@@ -1,0 +1,11 @@
+D:\code\SampleDotNet\Common\bin\Debug\net8.0\DotNetSample.Common.deps.json
+D:\code\SampleDotNet\Common\bin\Debug\net8.0\DotNetSample.Common.dll
+D:\code\SampleDotNet\Common\bin\Debug\net8.0\DotNetSample.Common.pdb
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\DotNetSample.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\DotNetSample.Common.AssemblyInfoInputs.cache
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\DotNetSample.Common.AssemblyInfo.cs
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\DotNetSample.Common.csproj.CoreCompileInputs.cache
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\DotNetSample.Common.dll
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\refint\DotNetSample.Common.dll
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\DotNetSample.Common.pdb
+D:\code\SampleDotNet\Common\obj\Debug\net8.0\ref\DotNetSample.Common.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DotNetSample.API.props" />
+</Project>

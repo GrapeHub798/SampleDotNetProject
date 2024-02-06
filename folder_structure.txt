@@ -1,0 +1,46 @@
+Clean Architecture
+
+YourSolutionName.sln
+|
+|-- /src
+|   |-- /YourSolutionName.API
+|   |   |-- /Controllers
+|   |   |-- /Properties
+|   |   |-- /wwwroot (if serving static files)
+|   |   |-- appsettings.json
+|   |   |-- Program.cs
+|   |   |-- Startup.cs
+|   |
+|   |-- /YourSolutionName.Common
+|   |   |--/Classes  
+|   |   |--/Helpers
+|   |
+|   |-- /YourSolutionName.Application
+|   |   |-- /Interfaces
+|   |   |-- /Models
+|   |   |-- /Services
+|   |   |-- /DTOs
+|   |   |-- /Mappings (optional, for AutoMapper configurations)
+|   |
+|   |-- /YourSolutionName.Domain
+|   |   |-- /Entities
+|   |   |-- /Interfaces
+|   |   |-- /Enums
+|   |   |-- /Exceptions
+|   |   |-- /ValueObjects (if any)
+|   |
+|   |-- /YourSolutionName.Infrastructure
+|       |-- /Data
+|       |   |-- /Configurations (for EF Core model configurations)
+|       |   |-- /Migrations
+|       |   |-- YourDbContext.cs
+|       |
+|       |-- /Repositories
+|       |-- /Migrations (EF Core migrations)
+|       |-- /Services (implementations of external services, e.g., email service)
+|
+|-- /tests
+    |-- /YourSolutionName.API.Tests
+    |-- /YourSolutionName.Application.Tests
+    |-- /YourSolutionName.Domain.Tests
+    |-- /YourSolutionName.Infrastructure.Tests

@@ -1,0 +1,66 @@
+//Replace DotNetSample this with you own solution name
+dotnet new sln -n DotNetSample
+
+//I like using the folder names without the solution
+//this can be changed by replacing the parameter after -o
+dotnet new webapi -n DotNetSample.API -o Api
+
+
+dotnet new classlib -n DotNetSample.Application -o Application
+dotnet new classlib -n DotNetSample.Common -o Common
+dotnet new classlib -n DotNetSample.Domain -o Domain
+dotnet new classlib -n DotNetSample.Infrastructure -o Infrastructure
+
+//Add projects to the solution
+dotnet sln add api
+dotnet sln add Application
+dotnet sln add Common
+dotnet sln add Domain
+dotnet sln add Infrastructure
+
+//Add references to the other projects as needed
+//For the Api project, cd to Api and run the following
+dotnet add reference ..\Common
+dotnet add reference ..\Application
+dotnet add reference ..\Infrastructure
+
+//For the Infrastructure project
+dotnet add reference ..\Common
+dotnet add reference ..\Application
+
+//For the Application Project
+dotnet add reference ..\Common
+dotnet add reference ..\Domain
+
+//Add in Entity Framework????
+//Go to the Infrastructure folder and run the following
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+//Replace this whatever db library you want to use
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+
+//Add Unit tests/test to the solution rename as necessary
+dotnet new xunit -n DotNetSample.API.Tests -o tests/DotNetSample.API.Tests
+dotnet new xunit -n DotNetSample.Application.Tests -o tests/DotNetSample.Application.Tests
+dotnet new xunit -n DotNetSample.Common.Tests -o tests/DotNetSample.Common.Tests
+dotnet new xunit -n DotNetSample.Domain.Tests -o tests/DotNetSample.Domain.Tests
+dotnet new xunit -n DotNetSample.Infrastructure.Tests -o tests/DotNetSample.Infrastructure.Tests
+
+//Add your tests to the solution
+dotnet sln add tests/DotNetSample.API.Tests
+dotnet sln add tests/DotNetSample.Application.Tests
+dotnet sln add tests/DotNetSample.Common.Tests
+dotnet sln add tests/DotNetSample.Domain.Tests
+dotnet sln add tests/DotNetSample.Infrastructure.Tests
+
+//Add references to the individual projects from the test libraries
+//From your Api tests folder - tests/DotNetSample.API.Tests
+dotnet add reference ../../Api
+etc etc
+
+
+
+//
+dotnet ef migrations add CreateUser --startup-project ../Api --output-dir Data/Migrations 
+dotnet ef database update --startup-project ../Api

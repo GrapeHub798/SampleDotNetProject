@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DotNetSample.Application/1.0.0": {
+        "dependencies": {
+          "DotNetSample.Common": "1.0.0",
+          "DotNetSample.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DotNetSample.Application.dll": {}
+        }
+      },
+      "DotNetSample.Common/1.0.0": {
+        "runtime": {
+          "DotNetSample.Common.dll": {}
+        }
+      },
+      "DotNetSample.Domain/1.0.0": {
+        "runtime": {
+          "DotNetSample.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetSample.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetSample.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetSample.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+D:\code\SampleDotNet\Application\bin\Debug\net8.0\DotNetSample.Application.deps.json
+D:\code\SampleDotNet\Application\bin\Debug\net8.0\DotNetSample.Application.dll
+D:\code\SampleDotNet\Application\bin\Debug\net8.0\DotNetSample.Application.pdb
+D:\code\SampleDotNet\Application\bin\Debug\net8.0\DotNetSample.Common.dll
+D:\code\SampleDotNet\Application\bin\Debug\net8.0\DotNetSample.Domain.dll
+D:\code\SampleDotNet\Application\bin\Debug\net8.0\DotNetSample.Common.pdb
+D:\code\SampleDotNet\Application\bin\Debug\net8.0\DotNetSample.Domain.pdb
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.csproj.AssemblyReference.cache
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.AssemblyInfoInputs.cache
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.AssemblyInfo.cs
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.csproj.CoreCompileInputs.cache
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.csproj.CopyComplete
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.dll
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\refint\DotNetSample.Application.dll
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\DotNetSample.Application.pdb
+D:\code\SampleDotNet\Application\obj\Debug\net8.0\ref\DotNetSample.Application.dll
